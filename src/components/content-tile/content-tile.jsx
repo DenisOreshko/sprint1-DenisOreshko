@@ -1,4 +1,4 @@
-import coverBook from '../../resources/img/cover-book.png';
+import coverBook from '../../resources/img/book-cover.svg';
 import defaultCoverBook from '../../resources/img/default_cover.svg';
 import { BookCard } from '../book-card/book-card';
 import { Stars } from '../stars/stars';
@@ -7,8 +7,8 @@ import './content-tile.css';
 
 export const ContentTile = () => (
     <div className="grid-content">
-        <a href="/#/books/:category/:bookId">
-            <div className="book-card" data-test-id='card'>                
+        <a href="/#/books/:category/:bookId" data-test-id='card'>
+            <div className="book-card" >                
                 <div className="book-info-tile">
                     <div className="book-cover">
                         <img  src={coverBook} alt="cover"/>
@@ -28,7 +28,7 @@ export const ContentTile = () => (
             </div>
         </a>
         <BookCard />
-        <a href="/#/books/:category/:bookId">    
+        <a href="/#/books/:category/:bookId" data-test-id='card'>    
             <div className="book-card">                                                            
                 <div className="book-info-tile">
                     <div className="book-cover">
@@ -49,7 +49,7 @@ export const ContentTile = () => (
                 </form>
             </div>
         </a>
-        <a href="/#/books/:category/:bookId">
+        <a href="/#/books/:category/:bookId" data-test-id='card'>
             <div className="book-card">                                
                 <div className="book-info-tile">
                     <div className="book-cover">
@@ -75,7 +75,7 @@ export const ContentTile = () => (
                 </form>
             </div>
         </a>
-        <a href="/#/books/:category/:bookId">
+        <a href="/#/books/:category/:bookId" data-test-id='card'>
             <div className="book-card">                            
                                 <div className="book-info-tile">
                                     <div className="book-cover">
@@ -102,7 +102,7 @@ export const ContentTile = () => (
                 </form>
             </div>
         </a>
-        <a href="/#/books/:category/:bookId">
+        <a href="/#/books/:category/:bookId" data-test-id='card'>
             <div className="book-card">                            
                                 <div className="book-info-tile">
                                     <div className="book-cover">
@@ -126,7 +126,7 @@ export const ContentTile = () => (
                 </form>
             </div>
         </a>
-        <a href="/#/books/:category/:bookId">
+        <a href="/#/books/:category/:bookId" data-test-id='card'>
             <div className="book-card">                            
                     <div className="book-info-tile">
                         <div className="book-cover">
@@ -152,7 +152,7 @@ export const ContentTile = () => (
                 </form>
             </div>
         </a>
-        <a href="/#/books/:category/:bookId">
+        <a href="/#/books/:category/:bookId" data-test-id='card'>
          <div className="book-card">                            
                                 <div className="book-info-tile">
                                     <div className="book-cover">
@@ -180,7 +180,7 @@ export const ContentTile = () => (
                             </form>
             </div>
         </a>
-        <a href="/#/books/:category/:bookId">
+        <a href="/#/books/:category/:bookId" data-test-id='card'>
             <div className="book-card">                            
                                 <div className="book-info-tile">
                                     <div className="book-cover">
@@ -206,7 +206,7 @@ export const ContentTile = () => (
                 </form>
             </div>
         </a>
-        <a href="/#/books/:category/:bookId">
+        <a href="/#/books/:category/:bookId" data-test-id='card'>
             <div className="book-card">                            
                 <div className="book-info-tile">
                     <div className="book-cover">

@@ -10,7 +10,7 @@ import { SearchFilterToggleViewBar } from '../../components/search-filter-toggle
 import './main-page.css';
 
 export const MainPage = () => {
-    const [toggleViewContent, setToggleViewContent] = useState(true); 
+    const [viewTile, setViewTile] = useState(true); 
 
     return  (    
     <section className='main-page'>
@@ -19,9 +19,9 @@ export const MainPage = () => {
             <div className="content-wrapper">
                 <NavGenreMenu />
                 <div className='content-column'>
-                    <SearchFilterToggleViewBar updateToggle={setToggleViewContent}/>
+                    <SearchFilterToggleViewBar viewTile={setViewTile}/>
                     <div className='contented'>                        
-                        {toggleViewContent ? <ContentTile /> : <ContentList />}
+                        {viewTile ? <ContentTile /> : <ContentList />}
                     </div>
                 </div>
             </div>
