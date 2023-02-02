@@ -1,0 +1,28 @@
+.stars {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.star {
+    background: url('../../resources/img/icon_star_empty.svg');
+    width: 24px;
+    height: 24px;
+}
+.fill {
+    background: url('../../resources/img/icon_star_fill.svg');
+}
+@media screen and (max-width: 375px) {
+    .book-rating-list .stars {
+        gap: 6px;
+    }
+    .book-rating-list .star {
+        width: 16px;
+        height: 16px;
+        background-size: 16px 16px;
+    }
+    .rating-detail .star{
+        width:34px;
+        height:34px;
+        background-size: 34px 34px;
+    }
+}

@@ -1,0 +1,134 @@
+.menu-column{
+    min-width: 279px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    margin-right: 6px;
+}
+.categories ul{
+    list-style-type: none; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #363636;
+    
+}
+.categories ul li{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding-left: 24px;
+    padding-top: 16px;
+    cursor: pointer;
+    width: 255px;
+}
+.categories ul li:hover{
+    background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.categories ul li.active{
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+.categories ul li.pd-20{
+    padding-left: 20px;
+}
+.amount{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:#A7A7A7;
+    color: #A7A7A7;
+    padding-left: 6px;
+}
+.tab1{
+    position: relative;
+}
+.tab1 > input[type="checkbox"]{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    opacity: 0.0;
+    cursor: pointer;
+    left: 219px;
+}
+.tab1 input[type="checkbox"]:checked ~ div > div > div {
+    background-image:url("../../resources/img/open_categories.svg");
+}
+.tab1 input[type="checkbox"]:checked ~ div + div {
+    display: none;
+}
+.tab-title-wrapper{
+    display: flex;
+    flex-direction: row;    
+}
+.tab-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #363636;
+    height: 36px; 
+    width: 255px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8px;    
+}
+.tab-title > a{
+    color: #363636;
+}
+.tab-title.active{ 
+    background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;  
+}
+.orange-bottom{
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);    
+    border-image-slice: 1;
+}
+.tab-title:hover{
+    background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    cursor: pointer;
+}
+.toggle-tab{
+    margin-left: 82px; 
+    background-image:url('../../resources/img/close_categories.svg');
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-column{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+}

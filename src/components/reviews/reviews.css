@@ -1,0 +1,104 @@
+.reviews{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 42px;
+}
+.reviews button{
+    margin-top: 26px;
+}
+.reviews-head{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+   align-items:center;
+}
+.feedbacks-block {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+.feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.user-feedback {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+}
+.user-feedback-avatar {
+    width: 32px;
+    height: 32px;
+}
+.user-name-date-feedback {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+.feedback-text{
+    max-width: 730px;
+}
+.btn-pressed{
+    background: linear-gradient(233.73deg, #F83600 -16.08%, #F9D423 327.37%);
+    border-radius: 30px;
+}
+.button-large {
+    width: 350px;
+    height: 52px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .reviews {
+        margin-bottom: 48px;
+    }
+    .reviews button{
+        width: 640px;
+    }
+    .user-name-date-feedback{
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .feedback-text {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+    }
+    .user-name-date-feedback{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+    }
+    .feedback-text {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+    }
+}

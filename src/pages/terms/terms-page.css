@@ -1,0 +1,15 @@
+ol{
+    list-style-type: none;
+}
+ol.subtitle-large{
+    margin-bottom: 62px;
+}
+ol.subtitle-large li{
+    margin-top: 32px;
+}
+ol.body-large{
+    margin-left: 30px;
+}
+ol.body-large li{
+    margin-top: 16px;
+}

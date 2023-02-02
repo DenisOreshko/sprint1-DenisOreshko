@@ -1,0 +1,12 @@
+.detail-description{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 62px;
+}
+.table-data-detail{
+    display: grid;
+    grid-template-columns: 180px 285px 180px 445px;
+    grid-template-rows: 24px 24px 24px 24px;
+    grid-row-gap: 16px;
+}

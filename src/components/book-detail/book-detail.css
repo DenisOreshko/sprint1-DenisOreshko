@@ -1,0 +1,39 @@
+.book-detail{
+    /* background:#F9F9FA; */
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 42px;
+}
+
+.book-detail img{
+    height: 593px;
+    width: 445px;
+}
+.book-detail-name{
+    margin-bottom: 24px;
+}
+.book-detail-write{
+    margin-bottom: 32px;
+}
+.book-detail-info{
+    width: 635px;
+}
+.about-book{
+    margin-top: 62px;
+}
+.describe-book{
+    margin-top: 32px;
+}
+.button-detail{
+    width: 350px;
+    height: 52px;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+}

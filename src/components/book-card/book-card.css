@@ -1,0 +1,114 @@
+.book-card{
+    width: 190px;
+    height: 470px;    
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 
+                0px 3px 4px rgba(191, 196, 201, 0.18), 
+                0px 1px 5px rgba(191, 196, 201, 0.24); 
+    padding:8px 8px 16px 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.book-card img{
+    width: 174px;
+    height: 242px;
+}
+.book-cover{
+    text-align: center;
+}
+.book-rating{
+    height: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #A7A7A7;
+}
+.book-n-w-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.book-name{
+    height:54px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #363636;
+}
+.book-write{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #727272;
+}
+.button-booking{    
+    width: 166px;
+    height: 40px;
+    border-radius: 20px;
+    border:none;
+}
+.free-book{
+    background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%); 
+    color: #FFFFFF;
+}
+.busy-book{
+    background: #F9F9FA;    
+    border: 1px solid #BFC4C9;
+    color: #A7A7A7;
+}
+.booked{
+    border: 1px solid #BFC4C9;
+    background: #FFFFFF;
+    color: #363636;
+}
+.mobile-button-small{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;    
+}
+@media screen and (max-width: 375px) {
+    .book-info-tile{
+        width: 100%;
+    }
+    .book-card{
+        width: 288px;
+        padding: 8px 16px 16px 16px;
+    }
+    .book-cover{
+        text-align: center;
+    }
+    .book-name {
+        height: fit-content;
+    }
+    .book-write {
+        height: fit-content;
+        margin-top: 8px;
+    }
+    .button-booking {
+        width: 256px;
+    }
+    
+}
